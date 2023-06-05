@@ -1,0 +1,161 @@
+body {
+    font-family: 'Forma DJR Micro', sans-serif !important;
+    margin: 0px;
+    padding: 0;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Kallisto';
+    font-style: normal;
+    padding-bottom: 0;
+    font-size: 5rem !important;
+}
+
+h2 {
+    font-family: 'Kallisto';
+    font-style: normal;
+    font-size: 3.25rem !important;
+    padding-top: 18px;
+    padding-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Kallisto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem !important;
+    padding-top: 18px;
+    padding-bottom: 0px;
+}
+
+h4 {
+    font-family: 'Forma DJR Micro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 0px;
+}
+
+h5 {
+    font-family: 'Forma DJR Micro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
+
+p {
+    font-family: 'Forma DJR Micro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+
+
+/* Navigation bar */
+
+/* General */
+#navbarNav {
+    background-color: transparent !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    padding-right: 130px;
+    column-gap: 24px;
+    background-color: transparent !important;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    padding-left: 130px;
+    width: auto;
+    height: 63px;
+}
+
+.nav-item {
+    margin: auto;
+    line-height: .25em;
+    padding: .75em;
+    font-size: 20px;
+}
+
+  /* Navigation links */
+.customNav a {
+    color:white !important;
+}
+
+.customNav a:hover {
+    color:#ED52BB !important;
+    text-decoration: none;
+}
+
+.button-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 48px;
+    gap: 10px;
+    background: #ED52BB;
+    border: 0;
+    border-radius: 25px;
+    color: #fff;
+    font-family: 'Forma DJR Micro';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+  }
+
+.jumbotron {
+    background-image: url(images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(75vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+.hero-text {
+    text-align: left;
+    position: relative;
+    min-width: 500px;
+    max-width: 585px;
+    color: white;
+    padding-left: 130px;
+    align-items: center;
+}
+
+#features {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.features {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.row {
+    gap: 44px;
+}
