@@ -159,3 +159,12 @@ a, a:visited, a:hover {
 .row {
     gap: 44px;
 }
+.blurb{
+    display:flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+.findsongs{
+    width: 40%;
+    align-self: center;
+}
