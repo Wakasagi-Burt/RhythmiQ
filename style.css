@@ -1,8 +1,10 @@
 body {
+    background-color: blue;
     font-family: 'Forma DJR Micro', sans-serif !important;
     margin: 0px;
     padding: 0;
     font-size: 15px;
+
 }
 
 h1 {
@@ -143,6 +145,11 @@ a, a:visited, a:hover {
     color: white;
     padding-left: 130px;
     align-items: center;
+}
+.fontchange{
+    font-family: 'Kallisto';
+    font-style: normal;
+    font-weight: 300;
 }
 
 #features {
