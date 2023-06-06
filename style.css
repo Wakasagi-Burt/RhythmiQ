@@ -129,7 +129,7 @@ a, a:visited, a:hover {
     background-image: url(images/hero.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(75vh - 25px);
+    height: calc(95vh - 25px);
     display: flex;
     align-items: center;
     justify-content: left;
