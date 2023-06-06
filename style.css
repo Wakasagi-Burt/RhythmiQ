@@ -153,7 +153,7 @@ a, a:visited, a:hover {
     align-items: center;
 }
 
-#features {
+.content {
     padding-left: 100px;
     padding-right: 100px;
     background-color: #180559;
@@ -177,3 +177,43 @@ a, a:visited, a:hover {
     width: 40%;
     align-self: center;
 }
+
+.download-apps {
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer {
+    height: 70px;
+    background-color: #4B29F2;
+    color: white;
+    padding: 20px;
+  }
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.left-section {
+    flex-grow: 1;
+}
+
+.right-section {
+    flex-grow: 0;
+}
+
+.right-section a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+  
