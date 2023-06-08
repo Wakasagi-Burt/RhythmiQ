@@ -44,7 +44,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Forma DJR Micro";
+  font-family: "Forma DJR Micro", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -240,4 +240,12 @@ footer {
 #stack2 {
   margin-right: 10%;
   width: 60%;
+}
+
+.explore {
+  margin-top: 2.5%;
+}
+
+#featureIcon {
+  margin-top: -2.5%;
 }
