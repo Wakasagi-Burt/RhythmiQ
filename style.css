@@ -175,7 +175,8 @@ a:hover {
 
 .blurb {
   display: flex;
-  margin-top: -15%;
+  margin-top: -12%;
+  margin-bottom: -5%;
   justify-content: center;
 }
 
@@ -244,11 +245,11 @@ footer {
 }
 
 .explore {
-  margin-top: 2.5%;
+  margin-top: 1.5%;
 }
 
 #featureIcon {
-  margin-top: -2.5%;
+  margin-top: -3.5%;
 }
 
 /* CSS for the Back to Top button */
@@ -257,24 +258,31 @@ footer {
     position: fixed;
     bottom: 50px;
     right: 50px;
-    width: 15px;
-    height: 15px;
+    width: 40px;
+    height: 40px;
     background: #fff;
     color: #ed52bb;
     font-size: 18px;
     border: #ed52bb;
-    line-height: 0px;
-    border-radius: 40px;
+    border-radius: 50%;
     text-align: center;
     align-items: center;
-    padding: 30px;
     cursor: pointer;
-    box-shadow: 3px 3px 10px rgba(23,25,25,.2);
-    transition: all .5s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
+    transition: all 0.5s ease-in-out;
     z-index: 99;
-}
-
-#backToTop:hover {
+  }
+  
+  #backToTop:hover {
     background-color: #ed52bb;
     color: #fff;
-}
+  }
+  
+  #backToTop span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+  
