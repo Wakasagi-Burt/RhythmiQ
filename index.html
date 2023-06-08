@@ -16,10 +16,10 @@
 
   <body>
     <!-- Image and text -->
-    <nav class="navbar navbar-expand fixed-top navbar-dark">
+    <nav class="navbar navbar-expand fixed-top navbar-dark" id="navbar">
         <a class="navbar-brand" href="#">
-        <img src="/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        RhythmiQ
+        <img src="images/logo.png" class="d-inline-block align-top" alt="RhythmiQ"> 
+        <!-- trying different logo -->
         </a>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -48,40 +48,58 @@
     <!-- End jumbotron -->
     
     <!-- Features -->
-    <section id="features">
+    <section class="content">
         <div class="features">
             <h2>We Find It Better</h2>
         </div>
         <div class="row">
             <div class="col text-center">
-                <img src="images/features-fpo.png" width="200vh"><h3>Search</h3><body>Tailored recs for your taste, boosting local and indie artists.</body>
+                <img src="images/search-icon.png" width="180vh"><h3>Search</h3><p>Tailored recs for your taste, boosting local and indie artists.</p>
             </div>
             <div class="col text-center">
-                <img src="images/features-fpo.png" width="200vh"><h3>Swipe</h3><body>Swipe to find your perfect rhythm.</body>
+                <img src="images/swipe-icon.png" width="180vh"><h3>Swipe</h3><p>Swipe to find your perfect rhythm.</p>
             </div>
             <div class="col text-center">
-                <img src="images/features-fpo.png" width="200vh"><h3>Sync</h3><body>Integrate seamlessly with your favorite streaming services.</body>
+                <img src="images/sync-icon.png" width="180vh"><h3>Sync</h3><p>Integrate seamlessly with your favorite streaming services.</p>
             </div>
         </div>
+        <!-- End Features -->
+
         <div class="blurb">
             <div class="findsongs">
                 <h2>Finding Songs. Just For You.</h2>
-                <p>Small Description Text Small Description Text Small Description Text Small Description Text Small Description Text Small Description Text</p>
+                <p>RhythmiQ puts the power of music exploration at your fingertips. Effortlessly swipe through a vast library of songs, genres, and artists, discovering hidden gems that match your personal vibe. Say goodbye to endless scrolling and hello to a whole world of music waiting to be explored.</p>
 
             </div>
-            <img src="images/phone stack.png">
+            <img src="images/phone stack.png" id="stack1">
         </div>
         <div class="blurb">
-            <img src="images/phone stack 2.png">
+            <img src="images/phone stack 2.png" id="stack2">
             <div class="findsongs">
-                <h2>Seamlessly Transfer All of Your New Songs.</h2>
-                <p>Small Description Text Small Description Text Small Description Text Small Description Text Small Description Text Small Description Text</p>
-
-            </div>    
-
-        </section>    
+                <h2>Enjoy a Unified Music Experience.</h2>
+                <p>We understand that your preferred streaming platform is your sanctuary for music. RhythmiQ integrates seamlessly with your favorite streaming services, allowing you to effortlessly sync your discovered tracks and playlists.</p>
+            </div>     
     </section>
-     <!-- End Features -->
+    <section class="content">
+        <hr style="border: none; height: 1px; background-color: #ededed; margin: 0px;">
+        <div class="download-apps">
+            <a href="#"><img src="images/apple-download.png" width="175vh"></a>
+            <a href="#"><img src="images/android-download.png" width="175vh"></a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="left-section">
+              <body>© 2023 RhythmiQ All rights reserved</body>
+            </div>
+            <div class="right-section">
+              <a href="#">Contact</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms</a>
+            </div>
+          </div>
+    </footer>
+    
   </body>
-
+  <script src="index.js"></script>
   </html>

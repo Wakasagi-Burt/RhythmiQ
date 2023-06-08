@@ -3,8 +3,7 @@ body {
     font-family: 'Forma DJR Micro', sans-serif !important;
     margin: 0px;
     padding: 0;
-    font-size: 15px;
-
+    font-size: 20px;
 }
 
 h1 {
@@ -12,6 +11,7 @@ h1 {
     font-style: normal;
     padding-bottom: 0;
     font-size: 5rem !important;
+    color: white;
 }
 
 h2 {
@@ -20,6 +20,9 @@ h2 {
     font-size: 3.25rem !important;
     padding-top: 18px;
     padding-bottom: 0px;
+    color: white;
+    
+    
 }
 
 h3 {
@@ -29,15 +32,18 @@ h3 {
     font-size: 2rem !important;
     padding-top: 18px;
     padding-bottom: 0px;
+    color: white;
 }
 
 h4 {
-    font-family: 'Forma DJR Micro';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
+  font-family: 'Kallisto';
+  font-style: normal;
+    font-weight: 300 !important;
+    font-size: 36px !important;
+    line-height: 150%;
     padding-top: 18px;
     padding-bottom: 0px;
+    color: white;
 }
 
 h5 {
@@ -47,14 +53,16 @@ h5 {
     font-size: 18px;
     padding-top: 12px;
     padding-bottom: 0px;
+    color: white;
 }
 
 p {
     font-family: 'Forma DJR Micro';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
 }
 
 
@@ -64,6 +72,8 @@ p {
 
 /* General */
 #navbarNav {
+  font-family: 'Kallisto';
+    font-style: normal;
     background-color: transparent !important;
 }
 
@@ -80,10 +90,10 @@ p {
 }
 
 .navbar-brand img {
-    padding-right: 15px;
+    padding-right: 20px;
     padding-left: 130px;
     width: auto;
-    height: 63px;
+    height: 75px;
 }
 
 .nav-item {
@@ -114,7 +124,7 @@ p {
     border: 0;
     border-radius: 25px;
     color: #fff;
-    font-family: 'Forma DJR Micro';
+    font-family: 'Kallisto';
     font-style: normal;
     font-size: 18px;
     line-height: 26px;
@@ -128,16 +138,19 @@ a, a:visited, a:hover {
   }
 
 .jumbotron {
-    background-image: url(images/hero.png);
+    background-image: url(images/hero2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(95vh - 25px);
     display: flex;
     align-items: center;
     justify-content: left;
+    margin-bottom: 0px !important;
+    border-radius: 0px !important;
   }
 
 .hero-text {
+  
     text-align: left;
     position: relative;
     min-width: 500px;
@@ -152,15 +165,18 @@ a, a:visited, a:hover {
     font-weight: 300;
 }
 
-#features {
+.content {
+  padding-top: 90px;
     padding-left: 100px;
     padding-right: 100px;
+    background-color: #180559;
 }
 
 .features {
     justify-content: center;
     text-align: center;
     padding-bottom: 24px;
+    margin-bottom: 6%;
 }
 
 .row {
@@ -175,3 +191,51 @@ a, a:visited, a:hover {
     width: 40%;
     align-self: center;
 }
+
+.download-apps {
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer {
+    height: 70px;
+    background-color: #4B29F2;
+    color: white;
+    padding: 20px;
+  }
+  
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.left-section {
+    flex-grow: 1;
+}
+
+.right-section {
+    flex-grow: 0;
+}
+
+.right-section a {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#stack1 {
+  margin-left: 10%;
+}
+
+#stack2 {
+  margin-right: 10%;
+}
+  
