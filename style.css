@@ -171,10 +171,12 @@ a:hover {
 
 .row {
   gap: 44px;
+  margin-bottom: 120px;
 }
+
 .blurb {
   display: flex;
-  margin-top: -5%;
+  margin-top: -15%;
   justify-content: center;
 }
 
