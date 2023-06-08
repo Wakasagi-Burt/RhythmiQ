@@ -290,4 +290,41 @@ footer {
     text-align: center;
     height: 100%;
   }
+
+  @media screen and (max-width:1400px){
+    .blurb {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0% !important;
+      margin-bottom: -5%;
+      justify-content: center;
+    }
+    
+    .findsongs {
+      width: 100%;
+      align-self: center;
+      transform: translate(0%) !important;
+    }
+    
+    .findsongs2 {
+        width: 100%;
+        align-self: center;
+        transform: translate(0%) !important;
+      }
+      #stack1 {
+        margin-left: 0% !important;
+        width: 100%;
+        margin-bottom: -20px;
+      }
+      
+      #stack2 {
+        margin-right: 0% !important;
+        width: 100%;
+      }
+  .wrapper{
+    display: flex;
+    flex-direction: column-reverse !important;
+
+  }
   
+}
