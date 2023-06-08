@@ -248,3 +248,31 @@ footer {
 #featureIcon {
   margin-top: -2.5%;
 }
+
+/* CSS for the Back to Top button */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    color: #ed52bb;
+    font-size: 18px;
+    border: #ed52bb;
+    line-height: 0px;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(23,25,25,.2);
+    transition: all .5s ease-in-out;
+    z-index: 99;
+}
+
+#backToTop:hover {
+    background-color: #ed52bb;
+    color: #fff;
+}
