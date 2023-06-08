@@ -33,7 +33,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Forma DJR Micro";
+  font-family: "Forma DJR Micro", sans-serif !important;
   font-style: normal;
   font-weight: 300 !important;
   font-size: 36px !important;
