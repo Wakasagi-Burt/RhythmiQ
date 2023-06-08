@@ -210,6 +210,8 @@ footer {
 
 .footer-content {
   display: flex;
+  font-family: "Forma DJR Micro", sans-serif !important;
+  font-style: normal;
   justify-content: space-between;
   align-items: center;
   padding-left: 80px;
