@@ -33,7 +33,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Kallisto";
+  font-family: "Forma DJR Micro";
   font-style: normal;
   font-weight: 300 !important;
   font-size: 36px !important;
@@ -57,7 +57,7 @@ p {
   font-family: "Forma DJR Micro", sans-serif !important;
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 150%;
   color: white;
 }
@@ -174,13 +174,21 @@ a:hover {
 }
 .blurb {
   display: flex;
-  margin-top: 10%;
+  margin-top: -5%;
   justify-content: center;
 }
+
 .findsongs {
   width: 40%;
   align-self: center;
+  transform: translate(50%);
 }
+
+.findsongs2 {
+    width: 40%;
+    align-self: center;
+    transform: translate(-40%);
+  }
 
 .download-apps {
   display: flex;
@@ -223,8 +231,11 @@ footer {
 
 #stack1 {
   margin-left: 10%;
+  width: 60%;
+  margin-bottom: -20px;
 }
 
 #stack2 {
   margin-right: 10%;
+  width: 60%;
 }
