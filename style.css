@@ -3,6 +3,7 @@ body {
   margin: 0px;
   padding: 0;
   font-size: 20px;
+  background-color: #180559 !important;
 }
 
 h1 {
@@ -169,6 +170,10 @@ a:hover {
   background-color: #180559;
 }
 
+.content-middle {
+    background-color: #180559;
+  }
+
 .features {
   justify-content: center;
   text-align: center;
@@ -214,7 +219,10 @@ footer {
   height: 50px;
   background-color: #4b29f2;
   color: white;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-top: 5px;
 }
 
 .footer-content {
@@ -293,6 +301,7 @@ footer {
     text-align: center;
     height: 100%;
   }
+
 /* Media query */
   @media screen and (max-width:1400px){
     .blurb {
@@ -314,16 +323,17 @@ footer {
         align-self: center;
         transform: translate(0%) !important;
       }
+
       #stack1 {
         margin-left: 0% !important;
-        width: 100%;
+        object-fit: cover;
         margin-bottom: -20px;
         align-self: center;
       }
       
       #stack2 {
         margin-right: 0% !important;
-        width: 100%;
+        object-fit: cover;
         align-self: center;
       }
   .wrapper{
@@ -332,35 +342,95 @@ footer {
 
   }
 }
-  @media screen and (max-width:800px){
+  @media screen and (max-width: 600px){
+    .fixed-top {
+        padding-right: 20px !important;
+    }
+    
+    .navbar-brand img {
+        padding-left: 10px;
+    }
+
+    .navbar-nav {
+        justify-content: right;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .jumbotron {
+        background-image: url(images/hero-small.png);
+        height: calc(65vh - 25px);
+    }
+
+    h1 {
+        font-size: 64px !important;
+        margin-top: 48px !important;
+    }
+
+    h2 {
+        font-size: 48px !important;
+    }
+
+    h4 {
+        font-size: 34px !important;
+    }
+
+    .hero-text {
+        text-align: left;
+        position: relative;
+        min-width: 300px;
+        max-width: 375px;
+        padding-left: 10px;
+        align-items: center;
+      }
+
+    .content {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    .findsongs {
+        padding-left: 30px;
+        padding-right: 20px;
+      }
+      
+      .findsongs2 {
+        padding-left: 30px;
+        padding-right: 20px;
+      }
+
+    .download-apps {
+        gap: 15px;
+    }
+
     #stack1 {
-      margin-left: 0% !important;
-      width: 200%;
-      margin-bottom: -20px;
-      margin-top: -100px;
+      height: 90vh;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: -10px;
+      margin-top: -90px;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
       align-self: center;
     }
     
     #stack2 {
-      margin-right: 0% !important;
-      width: 200%;
+      height: 90vh;
+      width: 100%;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      object-fit: cover;
       align-self: center;
     }
-    .hero-text {
-      text-align: center;
-      width: 100% !important;
-      color: white;
-      padding-left: 0px !important;
-      align-items: center;
-}
-.footer-content {
-  display: flex;
-  font-family: "Forma DJR Micro", sans-serif !important;
-  font-style: normal;
-  font-size: smaller !important;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
+    
+    .footer-content {
+    display: flex;
+    font-family: "Forma DJR Micro", sans-serif !important;
+    font-style: normal;
+    font-size: smaller !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    }
   }
